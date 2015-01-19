@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB5F4E31A6D416100D6B75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5F4E21A6D416100D6B75C /* AppDelegate.m */; };
+		FAB5F4E51A6D416100D6B75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5F4E41A6D416100D6B75C /* main.m */; };
+		FAB5F4E81A6D416100D6B75C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB5F4E71A6D416100D6B75C /* ViewController.m */; };
+		FAB5F4EA1A6D416100D6B75C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB5F4E91A6D416100D6B75C /* Images.xcassets */; };
+		FAB5F4ED1A6D416100D6B75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB5F4EB1A6D416100D6B75C /* Main.storyboard */; };
+		FAB5F5031A6D424700D6B75C /* osmobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB5F5021A6D424700D6B75C /* osmobjc.framework */; };
+		FAB5F5051A6D44B900D6B75C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB5F5041A6D44B900D6B75C /* MapKit.framework */; };
+		FAB5F5091A6D4B8500D6B75C /* hawaii-latest.osm.pbf in Resources */ = {isa = PBXBuildFile; fileRef = FAB5F5081A6D4B8500D6B75C /* hawaii-latest.osm.pbf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAB5F4DC1A6D416100D6B75C /* osmobjc_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osmobjc_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB5F4E01A6D416100D6B75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB5F4E11A6D416100D6B75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB5F4E21A6D416100D6B75C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB5F4E41A6D416100D6B75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB5F4E61A6D416100D6B75C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAB5F4E71A6D416100D6B75C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAB5F4E91A6D416100D6B75C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAB5F4EC1A6D416100D6B75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB5F5021A6D424700D6B75C /* osmobjc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osmobjc.framework; path = "../../../Library/Developer/Xcode/DerivedData/osmobjc-acuaqenhrziqbqbhawrpadyorzhw/Build/Products/Debug/osmobjc.framework"; sourceTree = "<group>"; };
+		FAB5F5041A6D44B900D6B75C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAB5F5081A6D4B8500D6B75C /* hawaii-latest.osm.pbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hawaii-latest.osm.pbf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB5F4D91A6D416100D6B75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB5F5031A6D424700D6B75C /* osmobjc.framework in Frameworks */,
+				FAB5F5051A6D44B900D6B75C /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB5F4D31A6D416100D6B75C = {
+			isa = PBXGroup;
+			children = (
+				FAB5F5041A6D44B900D6B75C /* MapKit.framework */,
+				FAB5F5021A6D424700D6B75C /* osmobjc.framework */,
+				FAB5F4DE1A6D416100D6B75C /* osmobjc_example */,
+				FAB5F4DD1A6D416100D6B75C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB5F4DD1A6D416100D6B75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5F4DC1A6D416100D6B75C /* osmobjc_example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB5F4DE1A6D416100D6B75C /* osmobjc_example */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5F4E11A6D416100D6B75C /* AppDelegate.h */,
+				FAB5F4E21A6D416100D6B75C /* AppDelegate.m */,
+				FAB5F4E61A6D416100D6B75C /* ViewController.h */,
+				FAB5F4E71A6D416100D6B75C /* ViewController.m */,
+				FAB5F4E91A6D416100D6B75C /* Images.xcassets */,
+				FAB5F4EB1A6D416100D6B75C /* Main.storyboard */,
+				FAB5F4DF1A6D416100D6B75C /* Supporting Files */,
+			);
+			path = osmobjc_example;
+			sourceTree = "<group>";
+		};
+		FAB5F4DF1A6D416100D6B75C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5F5081A6D4B8500D6B75C /* hawaii-latest.osm.pbf */,
+				FAB5F4E01A6D416100D6B75C /* Info.plist */,
+				FAB5F4E41A6D416100D6B75C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB5F4DB1A6D416100D6B75C /* osmobjc_example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB5F4FC1A6D416100D6B75C /* Build configuration list for PBXNativeTarget "osmobjc_example" */;
+			buildPhases = (
+				FAB5F4D81A6D416100D6B75C /* Sources */,
+				FAB5F4D91A6D416100D6B75C /* Frameworks */,
+				FAB5F4DA1A6D416100D6B75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osmobjc_example;
+			productName = osmobjc_example;
+			productReference = FAB5F4DC1A6D416100D6B75C /* osmobjc_example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB5F4D41A6D416100D6B75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "ITlekt Corporation";
+				TargetAttributes = {
+					FAB5F4DB1A6D416100D6B75C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FAB5F4D71A6D416100D6B75C /* Build configuration list for PBXProject "osmobjc_example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB5F4D31A6D416100D6B75C;
+			productRefGroup = FAB5F4DD1A6D416100D6B75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB5F4DB1A6D416100D6B75C /* osmobjc_example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB5F4DA1A6D416100D6B75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB5F4EA1A6D416100D6B75C /* Images.xcassets in Resources */,
+				FAB5F4ED1A6D416100D6B75C /* Main.storyboard in Resources */,
+				FAB5F5091A6D4B8500D6B75C /* hawaii-latest.osm.pbf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB5F4D81A6D416100D6B75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB5F4E81A6D416100D6B75C /* ViewController.m in Sources */,
+				FAB5F4E51A6D416100D6B75C /* main.m in Sources */,
+				FAB5F4E31A6D416100D6B75C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB5F4EB1A6D416100D6B75C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB5F4EC1A6D416100D6B75C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB5F4FA1A6D416100D6B75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAB5F4FB1A6D416100D6B75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAB5F4FD1A6D416100D6B75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/osmobjc-acuaqenhrziqbqbhawrpadyorzhw/Build/Products/Debug",
+				);
+				INFOPLIST_FILE = osmobjc_example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB5F4FE1A6D416100D6B75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/osmobjc-acuaqenhrziqbqbhawrpadyorzhw/Build/Products/Debug",
+				);
+				INFOPLIST_FILE = osmobjc_example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB5F4D71A6D416100D6B75C /* Build configuration list for PBXProject "osmobjc_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB5F4FA1A6D416100D6B75C /* Debug */,
+				FAB5F4FB1A6D416100D6B75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB5F4FC1A6D416100D6B75C /* Build configuration list for PBXNativeTarget "osmobjc_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB5F4FD1A6D416100D6B75C /* Debug */,
+				FAB5F4FE1A6D416100D6B75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB5F4D41A6D416100D6B75C /* Project object */;
+}
